@@ -1,5 +1,7 @@
 package br.com.smarttecnologia;
 
+import static org.assertj.core.api.Assertions.fail;
+
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
@@ -7,7 +9,18 @@ import org.springframework.boot.test.context.SpringBootTest;
 class ApiUsuariosApplicationTests {
 
 	@Test
-	void contextLoads() {
+	public void testCriarConta() {
+		fail("Não implementado");
+	}
+	
+	@Test
+	public void testAutenticar() {
+		fail("Não implementado");
+	}
+	
+	@Test
+	public void testRecuperarSenha() {
+		fail("Não implementado");
 	}
 
 }
